@@ -1,0 +1,10 @@
+Package: gausstest
+Version: 1.0-0
+Date: 2019-8-11
+Title: Bayesian Nonparametric Test of Gaussianity
+Author: Surya Tokdar <surya.tokdar@duke.edu>
+Maintainer: Surya Tokdar <surya.tokdar@duke.edu>
+Depends: R (>= 2.6), stats, graphics, grDevices
+Imports: splines, coda, Matrix, kernlab
+Description: Bayesian test for Gaussianity against a matching alternative given by a location-scale-rotation invariant Dirichlet process mixture of normals
+License: GPL-2

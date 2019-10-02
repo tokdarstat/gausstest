@@ -1,0 +1,14 @@
+useDynLib("gausstest", .registration = TRUE)
+# Export all functions listed below
+export(
+  gof.dpmalt,
+  logsum,
+  logmean,
+  essFn
+)
+
+S3method(plot, gaussdpmalt)
+S3method(summary, gaussdpmalt)
+
+# Import all packages listed as Imports or Depends
+import(stats, graphics, grDevices)
